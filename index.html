@@ -31,7 +31,7 @@
         </nav>
     </header>
     <main class="lightGray-bg">
-        <section class="container align-center" id="who-we-are">
+        <section class="container text-center" id="who-we-are">
             <h2>Who we are?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. ><br>
                 Mauris convallis sit amet diam euismod malesuada.</p>
@@ -102,7 +102,7 @@
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utm.</p>
             </article>
         </section>
-        <section id="services" class="align-center">
+        <section id="services" class="text-center">
             <h2>Our Services</h2>
 
             <div class="container grid-container">
@@ -154,9 +154,9 @@
                 </div>
             </div>
         </section>
-        <section class="container align-center" id="portfolio">
-            <h2>Portfolio</h2
-            <h3><span>There are success project created by us</span></h3>
+        <section class="container text-center" id="portfolio">
+            <h2>Portfolio</h2>
+            <p>There are success project created by us</p>
             <div class="portafolio-imgs">
                 <img src="img/2.jpg" alt="Could be a banner">
                 <img src="img/3.jpg" alt="Could be a banner">
@@ -169,65 +169,65 @@
                 <img src="img/10.jpg" alt="Could be a banner">
             </div>
         </section>
-        <sectiom class="container align-center" id="location">
-            <h2>Location</h2>
-            <p><strong>You can find us</strong></p>
-    
-            <div class="d-flex">
-                <div class="maps">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1389.842328885754!2d2.1693756640797566!3d41.38695602416231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f1602b4819%3A0x1eecc2af1c60d64b!2sPla%C3%A7a%20de%20Catalunya!5e0!3m2!1ses!2ses!4v1652521932964!5m2!1ses!2ses">
-                    </iframe>
-                </div>
-                <div class="info align-left">
-                <h4>Head Office</h4>
-                <p><i>12345 Blank Street</i></p>
-                <p><i>Phone: <ahref="">2456-134-321</i></a></p>
-                <address>
-                    <p><i>Email Address: <ahref="">info@domain.com</i></a></p>
-                </address>
-                <h4>Emea</h4>
-                <p><i>Carrer de Sant Joan de la Salle, 42 08022 Barcelona</i></p>
-                <p><i>Phone: <ahref=""> 932 90 24 74</i></a></p>
-                <p><i>Email Address: <ahref="">info@salleurl.edu</a></i></p>
-                </div>
+        <section id="location">
+            <div class="text-center">
+                <h2>Location</h2>
+                <p>You can find us</p>
             </div>
+            <article class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-9 col-md-5">
+                        <iframe class="maps"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1389.842328885754!2d2.1693756640797566!3d41.38695602416231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f1602b4819%3A0x1eecc2af1c60d64b!2sPla%C3%A7a%20de%20Catalunya!5e0!3m2!1ses!2ses!4v1652521932964!5m2!1ses!2ses">
+                        </iframe>
+                    </div>
+                    <div class="col-md-5 d-flex flex-column justify-content-evenly tex-left">
+                        <div>
+                            <h4>Head Office</h4>
+                            <p><i>12345 Blank Street</i></p>
+                            <p><i>Phone: <a href="tel:2456-134-321">2456-134-321</i></a></p>
+                            <address>
+                                <p><i>Email Address: <a href="">info@domain.com</i></a></p>
+                            </address>
+                        </div>
+                        <div>
+                            <h4>Emea</h4>
+                            <p><i>Carrer de Sant Joan de la Salle, 42 08022 Barcelona</i></p>
+                            <p><i>Phone: <a href=""> 932 90 24 74</i></a></p>
+                            <p><i>Email Address: <a href="">info@salleurl.edu</a></i></p>
+                        </div>
+                    </div>
+                </div>
+            </article>
 
         </section>
 
-            <div class="align-center" id="email">
-            <h3>Email Us</h3>
-            <form>
-                <table class="align-center">
-                    <tbody>
-                        <tr>
-                            <td><label>Name: * </label></td>
-                            <td><input type="text" name="name" for="Ask name"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Phone: </label></td>
-                            <td><input type="text" name="phone" for="Ask phone"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Subject: * </label></td>
-                            <td><input type="text" name="subject"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Message: * </label></td>
-                            <td><textarea class="message_box"></textarea></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><button>Send</button></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </form>
+        <section id="email">
+            <h3 class="text-center">Email Us</h3>
+            <div class="row">
+                <form class="col-md-6 mx-auto text-left">
+                            <div class="d-flex flex-column flex-md-row mb-4">
+                                <label class="col-md-3 ">Name: * </label>
+                                <input class="col-md-9" type="text" name="name" for="Ask name">
+                            </div>
+                            <div class="d-flex flex-column flex-md-row mb-4">
+                                <label class="col-md-3 ">Phone: </label>
+                                <input class="col-md-9" type="text" name="phone" for="Ask phone">
+                            </div>
+                            <div class="d-flex flex-column flex-md-row mb-4">
+                                <label class="col-md-3 ">Subject: * </label>
+                                <input class="col-md-9" type="text" name="subject">
+                            </div>
+                            <div class="d-flex flex-column flex-md-row mb-4">
+                                <label class="col-md-3 ">Message: * </label>
+                                <textarea class="col-md-9" ea class="message_box"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn">Send</button>
+                            </div>
+                </form>
             </div>
+        </section>
         
     </main>
     <footer class="footer">
