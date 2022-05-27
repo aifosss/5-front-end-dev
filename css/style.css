@@ -119,17 +119,6 @@ h3 {
     font-size: 2em;
 }
 
-h3 span {
-    display: block;
-    font-size: .6em;
-    font-weight: 500;
-    margin-bottom: 2em;
-}
-
-.align-center {
-    text-align: center;
-}
-
 
 .white-bg {
     background-color: #FFF;
@@ -162,7 +151,7 @@ section {
     border-radius: 50%;
 }
 
-section:nth-child(3) {
+section:nth-child(3), section:nth-child(5) {
     background-color: #FFFFFF;
 }
 
@@ -214,21 +203,20 @@ h4 {
     background-image: url("../img/map-image.png");
 }
 
-#email h3 {
+#email h3, #email label {
     color: #FFFFFF;
 }
 
 .maps {
-    display: block;
     overflow: hidden;
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
-    border: 1pxsolidblack;
+    border: 2px solid black;
 }
 
-.location {
-    display: flex;
+#location p{
+    margin-bottom: 0!important;
 }
 
 .info {
@@ -237,8 +225,16 @@ h4 {
     height: auto;
 }
 
-button {
-    padding: .5em .5em;
+button.btn {
+    border-radius: 9px;
+    padding: .5em 1.5em;
+    background-color: #FFFFFF;
+    max-width: 250px;
+}
+
+button.btn:hover{
+    background-color: #61448C!important;
+    color: #FFFFFF!important;
 }
 
 footer p {
